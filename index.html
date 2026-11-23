@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>مقایسه ایمیل مارکتینگ ایرانی</title>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --bg:#fff; --fg:#000; --muted:#666; --border:#e5e5e5; }
+    @media (prefers-color-scheme:dark){ :root{--bg:#000;--fg:#fff;--muted:#aaa;--border:#333;} }
+    *{box-sizing:border-box;margin:0;padding:0;}
+    body{font-family:'Vazirmatn',system-ui,sans-serif;background:var(--bg);color:var(--fg);line-height:1.7;}
+    .container{max-width:1100px;margin:0 auto;padding:0 24px;}
+    .hero{padding:80px 0;text-align:center;}
+    .plans{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;padding:40px 0;}
+    .plan{border:1px solid var(--border);padding:32px;text-align:center;}
+    .plan.featured{border-width:2px;border-color:var(--fg);}
+    .price{font-size:2.5rem;font-weight:700;margin:16px 0;}
+    .btn{display:inline-block;margin-top:24px;padding:12px 24px;background:var(--fg);color:var(--bg);text-decoration:none;}
+    footer{padding:40px 0;text-align:center;color:var(--muted);}
+  </style>
+</head>
+<body>
+  <section class="hero">
+    <div class="container">
+      <h1>بهترین سرویس ایمیل مارکتینگ فارسی</h1>
+      <p>مقایسه شفاف قیمت به تومان. پشتیبانی فارسی و سرور داخل ایران.</p>
+    </div>
+  </section>
+  <div class="container plans">
+    <div class="plan">
+      <h3>پایه</h3>
+      <div class="price">۱۵۰,۰۰۰ <small>تومان/ماه</small></div>
+      <p>۱۰,۰۰۰ ایمیل · قالب اماده · پشتیبانی ایمیل</p>
+      <a href="#" class="btn">انتخاب</a>
+    </div>
+    <div class="plan featured">
+      <h3>حرفه‌ای</h3>
+      <div class="price">۳۸۰,۰۰۰ <small>تومان/ماه</small></div>
+      <p>۵۰,۰۰۰ ایمیل · اتوماسیون · کامپین · پشتیبانی چت</p>
+      <a href="#" class="btn">انتخاب</a>
+    </div>
+    <div class="plan">
+      <h3>سازمانی</h3>
+      <div class="price">۷۵۰,۰۰۰ <small>تومان/ماه</small></div>
+      <p>نامحدود · دامنه مخصوص · مدیر حساب</p>
+      <a href="#" class="btn">انتخاب</a>
+    </div>
+  </div>
+  <footer>© ۱۴۰۵ — قیمت‌ها نمونه هستند. One-Page Studio</footer>
+</body>
+</html>
